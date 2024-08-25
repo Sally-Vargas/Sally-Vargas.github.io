@@ -1,0 +1,22 @@
+.certification{
+  padding: 2rem;
+}
+
+.certification h2 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+.certification-box{
+  margin-bottom: 0.5rem;
+}
+
+.certification-box h3, .certification-box h4{
+  margin: 0;
+  padding: 0 0 .3rem;
+}
+
+.certification-box h4 {
+  font-weight: 400;
+}

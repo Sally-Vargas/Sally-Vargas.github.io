@@ -1,0 +1,33 @@
+.languaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+#select-languaje {
+  background-color: #f0f0f0;
+  color: #333;
+  font-size: 16px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
+}
+
+#select-languaje:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+#select-languaje option {
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Estilo para cambiar el cursor al pasar por encima del select */
+#select-languaje:hover {
+  border-color: #007bff;
+}

@@ -1,0 +1,68 @@
+/* Estilos para la sección de proyectos */
+.Projects {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  margin-bottom: 3rem;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.project {
+  
+  width: calc(100% - 1rem); /* Ajusta el ancho según el diseño */
+  margin: 0 auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+.project img{
+  margin: 0.1rem auto;
+  max-height: 150px;
+
+}
+
+.Projects h2 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.project p {
+  margin: 0.5rem 0 0;
+  text-align: justify;
+}
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-links a {
+  display: block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  .projects-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .project{
+    width: calc(50% - 1rem); /* Ajusta el ancho según el diseño */
+  }
+}

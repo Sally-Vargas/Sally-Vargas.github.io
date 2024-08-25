@@ -1,0 +1,93 @@
+/* skills */
+.skills {
+  /* padding: 2rem; */
+  max-width: 1200px;
+}
+
+.skills h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem; /* Espacio alrededor de la cuadrícula */
+  padding-bottom: 2rem;
+  flex-flow: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px; /* Espacio interno de cada bloque */
+  text-align: center; /* Centrar el texto e imagen */
+  width: calc(50% - 1rem);
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 6rem;
+  padding: 0.7rem;
+  text-align: center;
+}
+.skill img {
+  width: 1.4rem;
+  margin-bottom:0.125rem ;
+}
+
+.skill h3 {
+  font-size: 0.8rem;
+  margin: 0 0 0.1rem;
+  color: #2c3e50;
+  user-select: none;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-container > div:hover {
+  transform: scale(1.1);
+}
+
+.skill-selected {
+  background-color: #ddf1f7;
+}
+
+
+
+@media (min-width: 800px) {
+  .skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px; /* Espacio alrededor de la cuadrícula */
+    padding-bottom: 2rem;
+    flex-flow: wrap;
+  }
+  .skill {
+
+    width: calc(100% - 1rem);
+    max-width: 120px;
+    padding: 1rem;
+  }
+  
+  .skill img {
+    width: 2rem;
+    margin-bottom:0.2rem ;
+  }
+  
+  .skill h3 {
+    font-size: 1rem;
+    margin: 0 0 0.1rem;
+    color: #2c3e50;
+    user-select: none;
+  }
+}
